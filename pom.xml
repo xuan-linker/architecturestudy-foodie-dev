@@ -6,7 +6,15 @@
 
     <groupId>com.xlccc</groupId>
     <artifactId>foodie-dev</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>foodie-api</module>
+        <module>foodie-common</module>
+        <module>foodie-pojo</module>
+        <module>foodie-mapper</module>
+        <module>foodie-service</module>
+    </modules>
 
 
 </project>
